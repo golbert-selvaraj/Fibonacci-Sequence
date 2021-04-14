@@ -1,0 +1,14 @@
+n = int(input("Enter a number, I will give Fibonacci sequence upto that number "))
+a=0
+b=1
+for i in range(100):
+  c = a+b
+  a = b
+  b = c
+  if n==0:
+     print("0") 
+     break
+  elif n<c:
+     break
+  else:
+     print (c) 
